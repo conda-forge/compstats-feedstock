@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://pypi.org/project/CompStats
-  summary: Competition Statistics
+  summary: Competition Statistics Library
   license: Apache-2.0
   license_file: LICENSE
 

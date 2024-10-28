@@ -7,7 +7,7 @@ Home: https://pypi.org/project/CompStats
 
 Package license: Apache-2.0
 
-Summary: Competition Statistics
+Summary: Competition Statistics Library
 
 Current build status
 ====================

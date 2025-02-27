@@ -1,5 +1,5 @@
 {% set name = "CompStats" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/compstats-{{ version }}.tar.gz
-  sha256: a042da2efd5a453c7e2f2f7226f3d80fdf62bc256f42651be47899b8f74ab905
+  sha256: 43f9e8df81534be4e369b82f84e332f2baf7fec950bccef1d5a95227f82a5a48
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
